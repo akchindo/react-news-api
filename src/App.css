@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  border: 1px solid red;
+  padding: 25px;
+  overflow: auto;
+}
+
+
+.view {
+  background-color: #333;
+  color: #fff;
+
+}
+
+.navBar {
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.card {
+  width: 400px;
+  height: 300px;
+  padding: 1rem;
+  margin-bottom: 5px;
+  background-color: white;
+  color: #333;
+}
+
+.card img {
+  width: 250px;
+}
+
+
+.search {
+  height: 50px;
+}
+
+input[type='text'] {
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  width: 60%;
+  margin: auto;
+  outline: none;
+}
